@@ -13,11 +13,11 @@ int main() {
     printf("Enter time (in years): ");
     scanf("%f", &time);
 
-    // Calculate compound interest
     amount = principal * pow((1 + rate / 100), time);
     compoundInterest = amount - principal;
 
     printf("Compound Interest: %.2f\n", compoundInterest);
+
     printf("Total Amount (Principal + Interest): %.2f\n", amount);
 
     return 0;
