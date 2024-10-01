@@ -13,9 +13,7 @@ int main() {
     printf("Enter time (in years): ");
     scanf("%d", &time);
     printf("Enter number of times interest applied per year: ");
-    scanf("%d", &n);
-
-    // Convert rate from percentage to decimal
+    scanf("%d", &years');
     rate = rate / 100;
 
     // Calculate amount
